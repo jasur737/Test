@@ -59,3 +59,13 @@ function makes10(a, b){
     return false
   }
 }
+
+
+
+function notString(str) {
+  if (str.startsWith("not")) {
+    return str;
+  } else {
+    return "not " + str;
+  }
+}
