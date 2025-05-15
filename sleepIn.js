@@ -79,3 +79,71 @@ function frontBack(str) {
 function front3(str){
   return str.slice(0, 3).repeat(3)  
 }
+
+
+
+function backAround(str){
+  return str.slice(-1) + str + str.slice(-1)
+ }
+
+
+ function or35(n){
+  if (n % 3 == 0 || n % 5 == 0) {
+    return true
+  } else {
+    return false
+  }
+}
+
+function front22(str){
+  return str.slice(0, 2) + str + str.slice(0, 2)
+}
+
+function startHi(str){
+  if (str.startsWith("hi")) {
+    return true
+  } else {
+    return false
+  }
+}
+
+function icyHot(temp1, temp2){
+  if (temp1 < 0 && temp2 > 100) {
+    return true
+  } else if (temp1 > 100 && temp2 < 0) {
+    return true
+  } else {
+    return false
+  }
+}
+
+
+
+function in1020(a, b){
+  if ((a >= 10 && a <= 20) || (b >= 10 && b <= 20)) {
+    return true
+  } else {
+    return false
+  }
+}
+
+
+function hasTeen(a, b, c){
+  if ((a <= 19 && a >= 13) || (b <= 19 && b >= 13) || (c <= 19 && c >= 13)) {
+  return true
+  } else {
+    return false
+  }
+    
+}
+
+
+function loneTeen(a, b){
+  if ((a <= 19 && a >= 13) && (b <= 19 && b >= 13)) {
+    return false 
+  } else if (a > 19 && b > 19) {
+    return false
+  } else {
+    return true
+  }
+}
