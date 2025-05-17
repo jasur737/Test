@@ -147,3 +147,39 @@ function loneTeen(a, b){
     return true
   }
 }
+
+
+function delDel(str){
+  if (str.substring(1, 4) === "del") {
+    return str[0] + str.substring(4);
+  }else {
+    return str;
+  }
+  }
+
+
+  function mixStart(str){
+    if (str.slice(1, 3) === ("ix")) {
+      return true
+    } else {
+      return false
+    }
+  }
+
+
+  function startOz(str){
+    if (str.slice(0,2) === 'oz' ) {
+      return "oz"
+    } else if (str.slice(0, 1) === 'o') {
+      return 'o'
+    } else if (str.slice(1, 2) === 'z') {
+      return 'z'
+    } else {
+      return ''
+    }
+  }
+
+
+  function intMax(a, b, c){
+    return Math.max(a, b, c)
+  }
