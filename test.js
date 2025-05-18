@@ -7,3 +7,5 @@ function close10(a, b) {
 }
 
 console.log(close10(7, 15));
+
+
